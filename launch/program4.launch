@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="qrcode" name="camera" type="camera">
+	</node>
+	<node pkg="qrcode" name="qr_detection_single" type="qr_detection_single" output="screen">
+	</node>
+</launch>
